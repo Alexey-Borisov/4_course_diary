@@ -7,10 +7,10 @@
 Начну со следующей обзорной статьи: [A Survey on Session-based Recommender Systems](https://arxiv.org/pdf/1902.04864.pdf).
 
 Список ниже будет дополняться статьями, которые я буду изучать:
--[] How Jing and Alexander J Smola. 2017. Neural survival recommender. In WSDM. ACM, 515–524. SBRS на основе LSTM для рекомендаций музыки/фильмов.
--[] Massimo Quadrana and et al. 2017. Personalizing session-based recommendations with hierarchical recurrent neural networks. In RecSys. ACM, 130–137. 3 статьи ниже также используют RNN для SBRS.
--[] Balázs Hidasi and Alexandros Karatzoglou. 2018. Recurrent neural networks with top-k gains for session-based recommendations. In CIKM. 843–852.
--[] Balázs Hidasi, Alexandros Karatzoglou, Linas Baltrunas, and Domonkos Tikk. 2016. Session-based recommendations with recurrent neural networks. In ICLR. 1–10.
+- [] How Jing and Alexander J Smola. 2017. Neural survival recommender. In WSDM. ACM, 515–524. SBRS на основе LSTM для рекомендаций музыки/фильмов.
+- [] Massimo Quadrana and et al. 2017. Personalizing session-based recommendations with hierarchical recurrent neural networks. In RecSys. ACM, 130–137. 3 статьи ниже также используют RNN для SBRS.
+- [] Balázs Hidasi and Alexandros Karatzoglou. 2018. Recurrent neural networks with top-k gains for session-based recommendations. In CIKM. 843–852.l0
+- [] Balázs Hidasi, Alexandros Karatzoglou, Linas Baltrunas, and Domonkos Tikk. 2016. Session-based recommendations with recurrent neural networks. In ICLR. 1–10.
 
 ___
 
