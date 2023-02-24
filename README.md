@@ -11,6 +11,10 @@
 - [ ] Amy Zhang, Nadia Fawaz, Stratis Ioannidis, and Andrea Montanari. 2012. Guess who rated this movie: identifying users through subspace clustering. In Proceedings of the Twenty-Eighth Conference on Uncertainty in Artificial Intelligence (UAI'12). AUAI Press, Arlington, Virginia, USA, 944–953.
 - [ ] Koen Verstrepen and Bart Goethals. 2015. Top-N Recommendation for Shared Accounts. In Proceedings of the 9th ACM Conference on Recommender Systems (RecSys '15). Association for Computing Machinery, New York, NY, USA, 59–66.
 
+Проблема multi-user в поисковых системах:
+- [ ] Ryen W. White and Ahmed Hassan Awadallah. 2015. Personalizing Search on Shared Devices. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ’15). 523–532.
+- [ ] Ryen W. White, Ahmed Hassan, Adish Singla, and Eric Horvitz. 2014. From Devices to People: Attribution of Search Activity in Multi-user Settings. In Proceedings of the 23rd International Conference on World Wide Web (WWW ’14). 431–442.
+
 ---
 
 ## 24.02.2023 
