@@ -7,7 +7,7 @@
 Ниже представлен список релевантных статей ($\pm$ все указанные статьи пойдут в список литературы к ВКР):
 
 Использование одного аккаунта несколькими пользователями (Shared accounts / Multi-user Identification).
-- [ ] Jiang, J., Li, C., Chen, Y., & Wang, W. (2018). Identifying Users behind Shared Accounts in Online Streaming Services. The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval.
+- [x] Jiang, J., Li, C., Chen, Y., & Wang, W. (2018). Identifying Users behind Shared Accounts in Online Streaming Services. The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval.
 - [ ] Amy Zhang, Nadia Fawaz, Stratis Ioannidis, and Andrea Montanari. 2012. Guess who rated this movie: identifying users through subspace clustering. In Proceedings of the Twenty-Eighth Conference on Uncertainty in Artificial Intelligence (UAI'12). AUAI Press, Arlington, Virginia, USA, 944–953.
 - [ ] Koen Verstrepen and Bart Goethals. 2015. Top-N Recommendation for Shared Accounts. In Proceedings of the 9th ACM Conference on Recommender Systems (RecSys '15). Association for Computing Machinery, New York, NY, USA, 59–66.
 
@@ -20,7 +20,7 @@ Identifying Users behind Shared Accounts in Online Streaming Services.
 Довольно современная статья, поэтому по ней было удобно собрать следующие статьи для исследования. Предложен метод получения эмбеддингов треков из графа, в котором вершинами являются треки и различная мета-информация (исполнители, альбомы). Приятной особенностью является именно использование мета-информации.  С помощью случайного блуждания получаются эмбеддинги вершин. Далее однако из эмбеддингов треков эмбеддинги сессий получаются эвристическим взвешенным усреднением, что кажется не самым лучшим подходом, учитывая что вся дальнейшая работа опирается исключительно на эти эмбеддинги. Описывается использование Affinity Propagation для кластеризации сессий и последующего разделения пользователей. 
 
 +:
-  * Интересный способ борьбы с popularity bias путем подсчета вероятностей при случаном блуждании в графе с использованием информации о степенях вершин.
+  * Интересный способ борьбы с popularity bias путем подсчета вероятностей при случайном блуждании в графе с использованием информации о степенях вершин.
   * Использование мета-информации, во многих методах с этим возникают проблемы.
 
 -: 
