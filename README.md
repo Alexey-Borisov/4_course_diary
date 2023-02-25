@@ -8,7 +8,7 @@
 
 Использование одного аккаунта несколькими пользователями (Shared accounts / Multi-user Identification).
 - [x] Jiang, J., Li, C., Chen, Y., & Wang, W. (2018). Identifying Users behind Shared Accounts in Online Streaming Services. The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval.
-- [ ] Amy Zhang, Nadia Fawaz, Stratis Ioannidis, and Andrea Montanari. 2012. Guess who rated this movie: identifying users through subspace clustering. In Proceedings of the Twenty-Eighth Conference on Uncertainty in Artificial Intelligence (UAI'12). AUAI Press, Arlington, Virginia, USA, 944–953.
+- [x] Amy Zhang, Nadia Fawaz, Stratis Ioannidis, and Andrea Montanari. 2012. Guess who rated this movie: identifying users through subspace clustering. In Proceedings of the Twenty-Eighth Conference on Uncertainty in Artificial Intelligence (UAI'12). AUAI Press, Arlington, Virginia, USA, 944–953.
 - [ ] Koen Verstrepen and Bart Goethals. 2015. Top-N Recommendation for Shared Accounts. In Proceedings of the 9th ACM Conference on Recommender Systems (RecSys '15). Association for Computing Machinery, New York, NY, USA, 59–66.
 
 Проблема multi-user в поисковых системах:
@@ -34,3 +34,21 @@ Identifying Users behind Shared Accounts in Online Streaming Services.
   * Сравнение с существующими методами не ясно как проводилось, в разных статьях по факту по-разному формулируют задачу. (общая проблема)
 
 ---
+
+## 25.02.2023
+
+Guess who rated this movie: identifying users through subspace clustering.
+
+Более старая статья, рассматривается рекомендательная система фильмов (типо Netflix), за счет чего нет проблемы с формированием эмбеддингов сессий, работа ведется с эмбеддингами фильмов. Основное предположение заключается в том, что эмбеддинги просмотренных фильмов лежат вблизи некоторого многообразия, которое представляет собой объединение нескольких гиперплоскостей, число которых равно числу реальных юзеров. Фактически считая число юзеров известным оптимизировался определенный функционал. В результате получались эмбеддинги юзеров для всех пользователей аккаунта.
+
++:
+ * Представлено довольно много методов определения какие объекты каким юзерам соответсвуют: кластеризация (KMeans, Spectral), EM, GPCA. В своей работе я также собираюсь рассматривать разные способы кластеризации.
+ *  В итоге получаются эмбеддинги для каждого юзера аккаунта (хотя вообще их всегда можно получить просто из матричного разложения с учетом информации о том кто какие фильмы смотрел)
+
+
+-:
+ * Все представленные методы опираются на информацию о количестве юзеров аккаунта. А это число определяется с помощью BIC (Bayesian Information Criterion). И вообще в работе датасеты весьма скудны и работа ведется только со случаем 1-2 юзеров одного аккаунта, за счет чего реально определяется 1 или 2 человека просто применив метод для обоих вариантов и выбрав лучший по BIC.
+ * Никак не используется мета-информация.
+ * Основной датасет Netflix не обладал разметкой числа юзеров у аккаунта, поэтому использовали синтетический датасет. Разметкой обладал только CAMRa2011 датасет, но в нем всего 272 аккаунта были размечены как обладающие 2 юзерами, слишком уж мало.
+
+--- 
