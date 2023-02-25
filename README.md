@@ -9,7 +9,7 @@
 Использование одного аккаунта несколькими пользователями (Shared accounts / Multi-user Identification).
 - [x] Jiang, J., Li, C., Chen, Y., & Wang, W. (2018). Identifying Users behind Shared Accounts in Online Streaming Services. The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval.
 - [x] Amy Zhang, Nadia Fawaz, Stratis Ioannidis, and Andrea Montanari. 2012. Guess who rated this movie: identifying users through subspace clustering. In Proceedings of the Twenty-Eighth Conference on Uncertainty in Artificial Intelligence (UAI'12). AUAI Press, Arlington, Virginia, USA, 944–953.
-- [ ] Koen Verstrepen and Bart Goethals. 2015. Top-N Recommendation for Shared Accounts. In Proceedings of the 9th ACM Conference on Recommender Systems (RecSys '15). Association for Computing Machinery, New York, NY, USA, 59–66.
+- [x] Koen Verstrepen and Bart Goethals. 2015. Top-N Recommendation for Shared Accounts. In Proceedings of the 9th ACM Conference on Recommender Systems (RecSys '15). Association for Computing Machinery, New York, NY, USA, 59–66.
 
 Проблема multi-user в поисковых системах:
 - [ ] Ryen W. White and Ahmed Hassan Awadallah. 2015. Personalizing Search on Shared Devices. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ’15). 523–532.
