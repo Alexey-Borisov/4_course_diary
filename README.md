@@ -24,7 +24,6 @@
 Коллаборативная фильтрация, алгоритм ALS (Alternating Least Squares):
 - [ ] R. Chen, Q. Hua, Y. -S. Chang, B. Wang, L. Zhang and X. Kong, "A Survey of Collaborative Filtering-Based Recommender Systems: From Traditional Methods to Hybrid Methods Based on Social Networks," in IEEE Access, vol. 6, pp. 64301-64320, 2018.
 - [ ] Y. Koren and R. Bell. Advances in collaborative filtering. In Recommender systems handbook, pages 145–186. Springer, 2011.
-- [ ] Y. Hu, Y. Koren, and C. Volinsky. Collaborative filtering for implicit feedback datasets. In ICDM 2008, pages 263–272.
 - [ ] Gábor Takács and Domonkos Tikk. 2012. Alternating least squares for personalized ranking. In Proceedings of the sixth ACM conference on Recommender systems (RecSys '12). Association for Computing Machinery, New York, NY, USA, 83–90.
 
 ---
