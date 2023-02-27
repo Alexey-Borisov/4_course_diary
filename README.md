@@ -21,6 +21,12 @@
 - [ ] Ryen W. White and Ahmed Hassan Awadallah. 2015. Personalizing Search on Shared Devices. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ’15). 523–532.
 - [ ] Ryen W. White, Ahmed Hassan, Adish Singla, and Eric Horvitz. 2014. From Devices to People: Attribution of Search Activity in Multi-user Settings. In Proceedings of the 23rd International Conference on World Wide Web (WWW ’14). 431–442.
 
+Коллаборативная фильтрация, алгоритм ALS (Alternating Least Squares):
+- [ ] R. Chen, Q. Hua, Y. -S. Chang, B. Wang, L. Zhang and X. Kong, "A Survey of Collaborative Filtering-Based Recommender Systems: From Traditional Methods to Hybrid Methods Based on Social Networks," in IEEE Access, vol. 6, pp. 64301-64320, 2018.
+- [ ] Y. Koren and R. Bell. Advances in collaborative filtering. In Recommender systems handbook, pages 145–186. Springer, 2011.
+- [ ] Y. Hu, Y. Koren, and C. Volinsky. Collaborative filtering for implicit feedback datasets. In ICDM 2008, pages 263–272.
+- [ ] Gábor Takács and Domonkos Tikk. 2012. Alternating least squares for personalized ranking. In Proceedings of the sixth ACM conference on Recommender systems (RecSys '12). Association for Computing Machinery, New York, NY, USA, 83–90.
+
 ---
 
 ## 24.02.2023 
